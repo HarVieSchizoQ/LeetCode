@@ -12,12 +12,8 @@ class Solution {
             carry = 1;
             
         }
-        if (carry > 0) {
-            int[] res = new int[digits.length + 1];
-            res[0] = 1;
-             return res;
-        }
-        return null;
-       
+        int[] res = new int[digits.length + 1];
+        res[0] = 1;
+        return res;
     }
 }
