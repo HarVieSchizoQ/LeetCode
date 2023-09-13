@@ -14,6 +14,7 @@ class Solution {
                     list.add(nums[low]);
                     list.add(nums[high]);
                     set.add(list);
+                    
                     high--;
                     low++;
                 } else if (nums[i] + nums[low] + nums[high] > 0)
