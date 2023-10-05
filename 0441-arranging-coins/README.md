@@ -14,7 +14,7 @@
 <img alt="" src="https://assets.leetcode.com/uploads/2021/04/09/arrangecoins2-grid.jpg" style="width: 333px; height: 333px;">
 <pre><strong>Input:</strong> n = 8
 <strong>Output:</strong> 3
-<strong>Explanation:</strong> Because the 4<sup>th</sup> row is incomplete, we return 3
+<strong>Explanation:</strong> Because the 4<sup>th</sup> row is incomplete, we return 3/
 </pre>
 
 <p>&nbsp;</p>
