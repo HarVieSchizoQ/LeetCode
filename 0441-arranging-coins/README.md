@@ -7,7 +7,7 @@
 <img alt="" src="https://assets.leetcode.com/uploads/2021/04/09/arrangecoins1-grid.jpg" style="width: 253px; height: 253px;">
 <pre><strong>Input:</strong> n = 5
 <strong>Output:</strong> 2
-<strong>Explanation:</strong> Because the 3<sup>rd</sup> row is incomplete, we return 2
+<strong>Explanation:</strong> Because the 3<sup>rd</sup> row is incomplete, we return 2.
 </pre>
 
 <p><strong class="example">Example 2:</strong></p>
