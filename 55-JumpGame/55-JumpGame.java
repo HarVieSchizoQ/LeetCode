@@ -8,7 +8,7 @@ class Solution {
     }
                 goal--;
 
-        return goal == 0 ? true : false;
+        return goal != nums.length - 1 && nums[0] != 0 ? true : false;
         if (nums.length == 1)
             return true;
 
