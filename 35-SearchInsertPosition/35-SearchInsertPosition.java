@@ -1,14 +1,13 @@
+                return mid;
+
+            if (nums[mid] > target) {
+                high = mid - 1;
+            } else {
+            int mid = (low + high) / 2;
+
+            if (nums[mid] == target)
         
-        for (int i = 0; i < nums.length; i++) {
-class Solution {
-    public int searchInsert(int[] nums, int target) {
-            if (nums[i] == target)
-                return i;
-
-            if (target < nums[i])
-                return i;
-        }
-
-        return nums.length;
-    }
+        while (low <= high) {
+        // 0 (log n)
+        int low = 0, high = nums.length - 1;
 [
