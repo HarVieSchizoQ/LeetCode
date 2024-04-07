@@ -1,14 +1,16 @@
         for (int i = 0; i < s.length(); i++) {
-            while (set.contains(s.charAt(i))) {
-                set.remove(s.charAt(removeIndex));
+            String current = "" + s.charAt(i);
+            
+            for (int j = i + 1; j < s.length(); j++) {
+                if (!current.contains("" + s.charAt(j))) 
+                    current += s.charAt(j);
+                else 
+                    break;
             }
-                removeIndex++;
-            set.add(s.charAt(i));
-            max = Math.max(max, set.size());
-        }
-
-        return max;
-
-    }
-}
+            
+            max = Math.max(max, current.length());
+    public int lengthOfLongestSubstring(String s) {
+        int max = 0;
+        
+class Solution {
 "
